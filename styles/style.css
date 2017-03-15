@@ -1,0 +1,25 @@
+body {
+  background-color: blue;
+  background-image: linear-gradient(
+    blue, black
+    );
+}
+
+/*.siteHeader {
+  height: 100px;
+  width: 100%;
+  background-color: black;
+  opacity: .7;
+}*/
+
+/*#homeButton {
+  border: 3px solid white;
+  height: 50px;
+  width: 100px;
+  background-color: black;
+  position: absolute;
+  display: inline-block;
+}
+#homeButton h2 {
+  color: white;
+}*/
