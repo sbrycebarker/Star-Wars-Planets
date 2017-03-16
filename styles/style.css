@@ -1,25 +1,44 @@
-body {
+.site {
   background-color: blue;
   background-image: linear-gradient(
     blue, black
     );
+    height: 1000px;
 }
 
-/*.siteHeader {
+.siteHeader {
   height: 100px;
   width: 100%;
   background-color: black;
   opacity: .7;
-}*/
+  padding-left: 40px;
+  position: absolute;
+}
 
-/*#homeButton {
+.things {
+  background-color: black;
+  height: 300px;
+  width: 200px;
+  display: inline-flex;
+  margin: 100px 50px 10px 50px;
+}
+
+#homeButton {
   border: 3px solid white;
   height: 50px;
   width: 100px;
   background-color: black;
   position: absolute;
+  bottom: 20px;
+  opacity: 1;
   display: inline-block;
 }
 #homeButton h2 {
   color: white;
-}*/
+}
+
+p {
+  color: white;
+  font-size: 50px;
+  float: right;
+}

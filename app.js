@@ -1,24 +1,26 @@
-angular.module('myApp', ['ui.router']).config(function, ($urlRouterProvider, $stateProvider) {
+angular.module('myApp', ['ui.router'])
 
+.config(function($urlRouterProvider, $stateProvider) {
+$urlRouterProvider.when('', '/');
         $stateProvider
         .state('home', {
           url:'/',
-          templateUrl: "./views/main.html"
+          templateUrl: "./views/main.html",
           controller: 'mainCtrl'
         })
         .state('one', {
           url: '/one',
-          templateUrl: './html/one.html',
+          templateUrl: 'views/one.html',
           controller: 'mainCtrl'
         })
         .state('two', {
           url: '/two',
-          templateUrl: './html/two.html',
+          templateUrl: './views/two.html',
           controller: 'mainCtrl'
         })
         .state('three', {
           url: '/three',
-          templateUrl: './html/three.html',
+          templateUrl: './views/three.html',
           controller: 'mainCtrl'
         })
 
