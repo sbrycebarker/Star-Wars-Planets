@@ -1,39 +1,47 @@
 html {
-  padding: 0;
+box-sizing: border-box;
+}
+body {
   margin: 0;
 }
-
 .site {
   background-color: blue;
   background-image: linear-gradient(
+    to left,
     blue, black
     );
-    height: 1000px;
+    height: 1500px;
+    width: 100%;
     padding: 0;
     margin: 0;
 }
 
 .siteHeader {
   height: 100px;
-  width: 1800px;
+  width: 100%;
   background-color: black;
-  opacity: .7;
-  padding-left: 40px;
-  position: absolute;
+  /*opacity: .7;*/
+  position: fixed;
 }
 .navbar {
   height: 50px;
-  width: 350px;
+  width: 50%;
   margin: 5px;
-  position: absolute;
+  float: right;
+  margin-top: 40px
 }
 .items {
   color: white;
+  background-color: black;
+  height: 40px;
   width: 100px;
+  bottom: 0;
   text-align: center;
-  position: relative;
+  float: right;
   display: inline-block;
-  border-bottom: 1px solid white;
+  border-top: 2px solid inherit;
+  margin: 0;
+  padding: 10px;
 }
 
 .things {
@@ -42,19 +50,33 @@ html {
   width: 200px;
   display: inline-block;
   margin: 50px;
-
-
 }
 
 #homeButton {
-  border: 3px solid white;
+  border: 2px solid white;
   height: 50px;
   width: 100px;
   background-color: black;
   position: absolute;
-  bottom: 20px;
+  margin-left: 100px;
+  /*bottom: 0;*/
   opacity: 1;
   display: inline-block;
+  -webkit-animation: buttonmove 4s infinite;
+  animation: buttonmove 4s infinite;
+}
+
+@-webkit-keyframes buttonmove {
+  from {left: -100px;}
+  to {left: 0px;}
+}
+@@keyframes buttonmove {
+  from {left: -100px;}
+  to {left: 0px;}
+}
+
+#homeButton :hover {
+  background-color: white;
 }
 #homeButton h2 {
   color: white;
@@ -65,4 +87,38 @@ p {
   font-size: 50px;
   display: flex;
 
+}
+.container {
+  height: 900px;
+  width: 1600px;
+  margin: 200px;
+  border: 1px solid white;
+  position: absolute;
+  background-color: red;
+  display: inline-block;
+}
+
+.planet {
+  background-color: red;
+  height: 800px;
+  width: 800px;
+  margin: 20px;
+  color: white;
+  display: inline-block;
+  border-radius: 10%;
+  border: 3px double white;
+  background-image: linear-gradient(
+    to left,
+    red, black
+    );
+}
+
+.info {
+  background-color: black;
+  height: 800px;
+  width: 600px;
+  margin: 20px;
+  display: inline-block;
+  border-radius: 9%;
+    border: 3px double white;
 }

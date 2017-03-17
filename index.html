@@ -4,27 +4,26 @@
 <title>Project</title>
 <link rel="stylesheet" type="text/css" href="./styles/style.css">
 <link rel="stylesheet" type="text/css" href="./styles/main.css">
-<link rel="stylesheet" type="text/css" href="./styles/one.css">
-<link rel="stylesheet" type="text/css" href="./styles/two.css">
-<link rel="stylesheet" type="text/css" href="./styles/three.css">
+
 </head>
 <body ng-controller="mainCtrl">
   <meta charset="utf-8">
 
 
               <div class="siteHeader">
-                  <div id="homeButton">
+                  <div id="homeButton" ui-sref="home">
                     <h2>Home</h2>
                   </div>
 
 
                   <div class="navbar">
 
-                    <div class="items">ONE</div>
-                    <div class="items">TWO</div>
-                    <div class="items">THREE</div>
+                    <div ui-sref="Tatooine" class="items">Tatooine</div>
+                    <div ui-sref="Hoth" class="items">Hoth</div>
+                    <div ui-sref="Dagobaa" class="items">Dagobaa</div>
                   </div>
               </div>
+
 
 
 

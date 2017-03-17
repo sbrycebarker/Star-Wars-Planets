@@ -1,0 +1,9 @@
+html {
+  background-color: red;
+  background-image: linear-gradient(
+    to left,
+    red, black
+    );
+    height: auto;
+    width: auto;
+}

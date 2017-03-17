@@ -8,19 +8,19 @@ $urlRouterProvider.when('', '/');
           templateUrl: "./views/main.html",
           controller: 'mainCtrl'
         })
-        .state('one', {
-          url: '/one',
-          templateUrl: 'views/one.html',
+        .state('Tatooine', {
+          url: '/Tatooine',
+          templateUrl: './views/tatooine.html',
           controller: 'mainCtrl'
         })
-        .state('two', {
-          url: '/two',
-          templateUrl: './views/two.html',
+        .state('Hoth', {
+          url: '/Hoth',
+          templateUrl: './views/Hoth.html',
           controller: 'mainCtrl'
         })
-        .state('three', {
-          url: '/three',
-          templateUrl: './views/three.html',
+        .state('Dagobaa', {
+          url: '/Dagobaa',
+          templateUrl: './views/Dagobaa.html',
           controller: 'mainCtrl'
         })
 
