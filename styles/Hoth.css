@@ -1,3 +1,11 @@
-html {
+
+.page {
+  height: 1000px;
+  width: 100%;
   background-color: skyblue;
+  background-image: linear-gradient(
+    to bottom,
+    skyblue, grey
+    );
+
 }

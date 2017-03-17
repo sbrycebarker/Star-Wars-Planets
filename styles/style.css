@@ -16,12 +16,17 @@ body {
     margin: 0;
 }
 
+
 .siteHeader {
   height: 100px;
   width: 100%;
   background-color: black;
   /*opacity: .7;*/
   position: fixed;
+  background-image: linear-gradient(
+    to bottom,
+    white, black
+    );
 }
 .navbar {
   height: 50px;
@@ -62,8 +67,8 @@ body {
   /*bottom: 0;*/
   opacity: 1;
   display: inline-block;
-  -webkit-animation: buttonmove 4s infinite;
-  animation: buttonmove 4s infinite;
+  -webkit-animation: buttonmove 4s ;
+  animation: buttonmove 4s ;
 }
 
 @-webkit-keyframes buttonmove {
@@ -80,45 +85,53 @@ body {
 }
 #homeButton h2 {
   color: white;
+  font-style: sans-serif
+  font-family: sans-serif;
 }
 
 p {
   color: white;
   font-size: 50px;
   display: flex;
+  font-family: Helvetica Arial sans-serif;
 
 }
 .container {
   height: 900px;
   width: 1600px;
   margin: 200px;
-  border: 1px solid white;
   position: absolute;
-  background-color: red;
   display: inline-block;
 }
 
 .planet {
-  background-color: red;
-  height: 800px;
+  background-color: white;
+  height: 600px;
   width: 800px;
   margin: 20px;
-  color: white;
+  color: black;
   display: inline-block;
   border-radius: 10%;
-  border: 3px double white;
   background-image: linear-gradient(
     to left,
-    red, black
+    grey, white
     );
+font-family: Helvetica Arial;
+  box-shadow: -10px 10px 10px 0px;
 }
 
+
+
 .info {
-  background-color: black;
-  height: 800px;
+  background-color: white;
+  height: 600px;
   width: 600px;
   margin: 20px;
   display: inline-block;
   border-radius: 9%;
-    border: 3px double white;
+    background-image: linear-gradient(
+      to left,
+      white, grey
+      );
+  box-shadow: -10px 10px 10px 0px;
 }

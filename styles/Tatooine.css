@@ -1,9 +1,10 @@
-html {
-  background-color: red;
+.page {
+  height: 1000px;
+  width: 100%;
+  background-color: tan;
   background-image: linear-gradient(
-    to left,
-    red, black
+    to bottom,
+    tan, grey
     );
-    height: auto;
-    width: auto;
+
 }

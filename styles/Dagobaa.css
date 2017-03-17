@@ -1,3 +1,10 @@
-html {
+.page {
+  height: 1000px;
+  width: 100%;
   background-color: green;
+  background-image: linear-gradient(
+    to bottom,
+    green, brown
+    );
+
 }
