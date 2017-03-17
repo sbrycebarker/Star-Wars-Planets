@@ -1,4 +1,4 @@
-.page {
+/*.page {
   height: 1000px;
   width: 100%;
   background-color: tan;
@@ -6,5 +6,11 @@
     to bottom,
     tan, grey
     );
+
+}*/
+
+.planets {
+background-color: brown;
+
 
 }

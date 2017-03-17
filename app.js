@@ -11,7 +11,7 @@ $urlRouterProvider.when('', '/');
         .state('Tatooine', {
           url: '/Tatooine',
           templateUrl: './views/tatooine.html',
-          controller: 'mainCtrl'
+          controller: 'tatooineCtrl'
         })
         .state('Hoth', {
           url: '/Hoth',
