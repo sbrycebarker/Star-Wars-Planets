@@ -11,17 +11,17 @@ $urlRouterProvider.when('', '/');
         .state('Tatooine', {
           url: '/Tatooine',
           templateUrl: './views/tatooine.html',
-          controller: 'tatooineCtrl'
+          controller: 'planetCtrl'
         })
         .state('Hoth', {
           url: '/Hoth',
           templateUrl: './views/Hoth.html',
-          controller: 'mainCtrl'
+          controller: 'planetCtrl'
         })
         .state('Dagobaa', {
           url: '/Dagobaa',
           templateUrl: './views/Dagobaa.html',
-          controller: 'mainCtrl'
+          controller: 'planetCtrl'
         })
 
 })

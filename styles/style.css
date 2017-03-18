@@ -15,3 +15,9 @@ body {
     padding: 0;
     margin: 0;
 }
+
+.planet {
+  height: 300px;
+  width: 100%;
+  position: relative;
+}

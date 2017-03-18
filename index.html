@@ -20,12 +20,15 @@
 
                     <div ui-sref="Tatooine" class="items">Tatooine</div>
                     <div ui-sref="Hoth" class="items">Hoth</div>
-                    <div ui-sref="Dagobaa" class="items">Dagobaa</div>
+                    <div ui-sref="Dagobaa" class="items">Dagobah</div>
+                    <div ui-sref="Mustafar" class="items">Mustafar</dav>
+                    <div ui-sref="Coruscant" class="itmes">Coruscant</div>
                   </div>
               </div>
 
 
-
+              <input ng-model="userHtml" aria-label="User input">
+              <div ng-bind-html="userHtml"></div>
 
 
 
@@ -36,8 +39,8 @@
 <script src="app.js"></script>
 <script src="./js/mainCtrl.js"></script>
 <script src="./js/service.js"></script>
-<script src="./js/tatooineCtrl.js"></script>
-<script src="./js/tatService.js"></script>
+<script src="./js/planetCtrl.js"></script>
+<script src="./js/planetService.js"></script>
 
 </body>
 </html>

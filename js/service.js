@@ -1,4 +1,4 @@
-angular.module('myApp').service('service', function($http, templateUrl){
+angular.module('myApp').service('service', function($http, $sce){
 
 this.getPlanets = function() {
   return $http({
@@ -21,13 +21,14 @@ this.mustafar = function() {
   });
 }
 
-this.getweather = function(){
-  // $sce.trustAsJs(url);
-  return $http({
-    method:'JSONP',
-    templateUrl: "http://api.openweathermap.org/data/2.5/weather?zip={20877},{us}"
-  });
-}
+// this.getweather = function(){
+//   var url = url
+// $sce.trustAsJs(url);
+//   return $http({
+//     method:'GET',
+//     url: "https://api.weatherbit.io/v1.0/forecast/hourly?lat=68&lon=-43&key=279abbf80b9d4142a0f619336394e835"
+// //   });
+// }
 
 
 });
