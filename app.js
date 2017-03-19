@@ -10,7 +10,7 @@ $urlRouterProvider.when('', '/');
         })
         .state('Tatooine', {
           url: '/Tatooine',
-          templateUrl: './views/tatooine.html',
+          templateUrl: './views/Tatooine.html',
           controller: 'planetCtrl'
         })
         .state('Hoth', {
