@@ -23,5 +23,15 @@ $urlRouterProvider.when('', '/');
           templateUrl: './views/Dagobaa.html',
           controller: 'planetCtrl'
         })
+        .state('Coruscant', {
+          url: '/Coruscant',
+          templateUrl: './views/coruscant.html',
+          controller: 'planetCtrl'
+        })
+        .state('Mustafar', {
+          url: '/Mustafar',
+          templateUrl: './views/mustafar.html',
+          controller: 'planetCtrl'
+        })
 
 })
