@@ -15,12 +15,12 @@ $scope.getPlanets();
   }
   $scope.getmorePlanets();
 
-  $scope.mustafar = function() {
-    service.mustafar().then(function(results){
-      $scope.mustafar = results.data.results
+  $scope.getotherPlanets = function() {
+    service.getotherPlanets().then(function(results){
+      $scope.otherPlanets = results.data.results
     })
   }
-  $scope.mustafar();
+  $scope.getotherPlanets();
 
   // $scope.getweather =function() {
   //   service.getweather().then(function(results){

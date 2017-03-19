@@ -14,7 +14,7 @@ this.getmorePlanets = function() {
   });
 }
 
-this.mustafar = function() {
+this.getotherPlanets = function() {
   return $http({
     method: 'GET',
     url: "https://swapi.co/api/planets/?page=2"

@@ -22,6 +22,15 @@ this.getDagobah = function() {
     url: "https://swapi.co/api/planets/?page=1"
   });
 }
+
+this.getmustafar = function() {
+  return $http({
+    method: 'GET',
+    url: "https://swapi.co/api/planets/?page=2"
+  });
+}
+
+
 //
 // this.getYavin = function() {
 //   return $http({

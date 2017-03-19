@@ -21,6 +21,7 @@
   padding: 10px;
   font-family: arial;
   font-size: 20px;
+  text-shadow: 2px 2px 2px black;
   box-shadow: 15px 15px 15px grey;
   -webkit-animation: mymove 3s; /* Safari 4.0 - 8.0 */
 animation: mymove 3s;

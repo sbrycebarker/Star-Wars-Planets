@@ -18,7 +18,21 @@ h1 {
   border-radius: 10px;
   font-family: arial;
   border: 1px solid white;
+  left: 100px;
+  -webkit-animation: mymove 3s; /* Safari 4.0 - 8.0 */
+animation: mymove 3s;
 }
+@-webkit-keyframes mymove {
+    from {left: 0px;}
+    to {left: 100px;}
+}
+@keyframes mymove {
+    from {left: 0px;}
+    to {left: 100px;}
+}
+
+
+
 .imperial {
   height: 600px;
   width: 100%;
@@ -86,4 +100,8 @@ a:visited { text-decoration: none; }
   width: 100%;
   position: relative;
   border-bottom: 2px solid red;
+}
+
+.planet:hover {
+  opacity: .5;
 }

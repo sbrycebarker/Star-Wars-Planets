@@ -24,5 +24,12 @@ angular.module('myApp').controller('planetCtrl', function($scope, planetService)
   }
   $scope.getDagobah()
 
+  $scope.getmustafar = function() {
+    planetService.getmustafar().then(function(results){
+      $scope.mustafar = results.data.results[1]
+    })
+  }
+  $scope.getmustafar();
+
 
 });
