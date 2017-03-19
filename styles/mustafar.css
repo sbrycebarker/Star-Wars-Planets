@@ -1,28 +1,27 @@
 
 .img {
-  position: absolute;
-  z-index: -1;
   height: 100%;
   width: 100%;
+  position: absolute;
+  z-index: -1;
 }
 
 .planetinfo {
   position: absolute;
-  background-color: grey;
+  background-color: black;
   margin: auto;
   z-index: 1;
   height: 400px;
   width: 400px;
-  background-image: linear-gradient( to right, silver, black );
+  background-image: linear-gradient( to right, black, red );
   border-radius: 20px;
   top: 200px;
   left: 200px;
   color: white;
-  text-shadow: 4px 4px 4px;
   padding: 10px;
   font-family: arial;
   font-size: 20px;
-  box-shadow: 15px 15px 15px black;
+  box-shadow: 15px 15px 15px grey;
   -webkit-animation: mymove 3s; /* Safari 4.0 - 8.0 */
 animation: mymove 3s;
 }

@@ -1,11 +1,37 @@
 
-.page {
-  height: 1000px;
-  width: 100%;
-  background-color: skyblue;
-  background-image: linear-gradient(
-    to bottom,
-    skyblue, grey
-    );
 
+.img {
+  position: absolute;
+  z-index: -1;
+  height: 100%;
+  width: 100%;
+}
+
+.planetinfo {
+  position: absolute;
+  background-color: grey;
+  margin: auto;
+  z-index: 1;
+  height: 400px;
+  width: 400px;
+  background-image: linear-gradient( to right, silver, skyblue );
+  border-radius: 20px;
+  top: 200px;
+  right: 200px;
+  color: white;
+  padding: 10px;
+  font-family: arial;
+  font-size: 20px;
+  box-shadow: 15px 15px 15px 0px;
+  -webkit-animation: mymove 3s; /* Safari 4.0 - 8.0 */
+animation: mymove 3s;
+}
+
+@-webkit-keyframes mymove {
+    from {right: 0px;}
+    to {right: 200px;}
+}
+@keyframes mymove {
+    from {right: 0px;}
+    to {right: 200px;}
 }
