@@ -1,13 +1,13 @@
-/*.page {
+.page {
   height: 1000px;
   width: 100%;
-  background-color: tan;
+  /*background-color: green;
   background-image: linear-gradient(
     to bottom,
-    tan, grey
-    );
+    green, brown
+    );*/
 
-}*/
+}
 
 .planets {
 background-color: brown;
