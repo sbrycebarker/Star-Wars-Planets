@@ -15,7 +15,6 @@ h1 {
   color: white;
   background-color: black;
   padding: 5px;
-  margin-top: 50px;
   border-radius: 10px;
   font-family: arial;
   border: 1px solid white;
@@ -35,16 +34,12 @@ animation: mymove 3s;
 
 
 .imperial {
-  height: 900px;
-  width: 1903px;
+  height: 600px;
+  width: 100%;
   border-bottom: 5px solid teal;
   margin-bottom: 0px;
 }
-@media (max-width: 800px) {
-  .imperial {
-    display: none;
-  }
-}
+
 .siteHeader{
   position: fixed;
   height: 100px;
@@ -86,12 +81,7 @@ a:visited { text-decoration: none; }
   border-top: 1px white solid;
 }
 
-.menu {
-
-}
-
-
-@media (max-width: 600px) {
+@media (max-width: 550px) {
   .navbar{ display: none;
   }
 }
@@ -107,13 +97,8 @@ a:visited { text-decoration: none; }
     margin: 0;
 }
 .planets {
-  width: 1903px;
-  margin-top: 100px;
-}
-@media (min-width: 800px ) {
-  .planets {
-    display: none;
-  }
+  width: 100%;
+  margin-top: -5px;
 }
 .planet {
   height: 300px;
