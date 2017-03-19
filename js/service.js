@@ -3,21 +3,21 @@ angular.module('myApp').service('service', function($http, $sce){
 this.getPlanets = function() {
   return $http({
     method: 'GET',
-    url: "http://swapi.co/api/planets/"
+    url: "https://swapi.co/api/planets/"
   });
 },
 
 this.getmorePlanets = function() {
   return $http({
     method: 'GET',
-    url: "http://swapi.co/api/planets/?page=6"
+    url: "https://swapi.co/api/planets/?page=6"
   });
 }
 
 this.mustafar = function() {
   return $http({
     method: 'GET',
-    url: "http://swapi.co/api/planets/?page=2"
+    url: "https://swapi.co/api/planets/?page=2"
   });
 }
 
