@@ -167,8 +167,9 @@ a:visited { text-decoration: none; }
 
 @media (max-width: 1000px) {
   .navbar{
-    display: none;
+    font-size: 10px;
   }
+
 }
 .navbar .items:hover {
   color: #01A4D4;
