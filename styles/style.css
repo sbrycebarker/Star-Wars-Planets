@@ -147,7 +147,7 @@ a:link {
 }
 
 .homeButton a:hover {
-  color: red;
+  color: purple;
 }
 
 a:visited { text-decoration: none; }
@@ -165,14 +165,30 @@ a:visited { text-decoration: none; }
   border-top: 1px white solid;
 }
 
+#tato:hover {
+  color: #FF5E00;
+}
+
+#dago:hover {
+  color: green;
+}
+
+#must:hover {
+  color: red;
+}
+
+#coru:hover {
+  color: gold;
+}
+
+#hoth:hover {
+  color: skyblue;
+}
 @media (max-width: 1000px) {
   .navbar{
     font-size: 10px;
   }
 
-}
-.navbar .items:hover {
-  color: #01A4D4;
 }
 
 .site {
@@ -201,6 +217,6 @@ a:visited { text-decoration: none; }
 
 @media (max-width: 1100px) {
   .planets {
-    margin-top: 103px;
+    margin-top: 102px;
   }
 }
