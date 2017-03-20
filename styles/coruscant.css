@@ -106,3 +106,37 @@ animation: mymove 3s;
   }
 
 }
+
+@media (max-width: 600px) {
+  .planetinfo {
+    max-width: 700px;
+    position: absolute;
+    background-color: grey;
+    margin: auto;
+    z-index: 1;
+    height: 180px;
+    width: 180px;
+    background-image: linear-gradient( to right, grey, black );
+    border-radius: 20px;
+    top: 130px;
+    right: 100px;
+    color: gold;
+    margin-left: 100px;
+    padding: -20px;
+    font-family: arial;
+    font-size: 10px;
+    text-shadow: 2px 2px 2px black;
+    box-shadow: 15px 15px 15px 0px;
+    -webkit-animation: mymove 3s; /* Safari 4.0 - 8.0 */
+  animation: mymove 3s;
+  }
+  @-webkit-keyframes mymove {
+      from {right: 0px;}
+      to {right: 100px;}
+  }
+  @keyframes mymove {
+      from {right: 0px;}
+      to {right: 100px;}
+  }
+
+}
