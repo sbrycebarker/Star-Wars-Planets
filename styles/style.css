@@ -125,7 +125,7 @@ animation: mymove 3s;
 
 .siteHeader{
   position: fixed;
-  height: 120px;
+  height: 100px;
   width: 100%;
   background-color: black;
   z-index: 1;
