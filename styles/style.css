@@ -157,13 +157,14 @@ a:visited { text-decoration: none; }
 }
 
 @media (max-width: 550px) {
-  .navbar{ display: none;
+  .navbar{
+    font-size: 5px;
+    padding: 1px;
   }
 }
 .navbar .items:hover {
   color: #01A4D4;
 }
-
 
 .site {
     height: 100%;
