@@ -41,16 +41,32 @@ animation: mymove 3s;
 }
 .icons {
   position: relative;
-  display: inline-block;
-  background-color: red;
+  display: flex;
   height: 300px;
   width: 300px;
   top: 200px;
   margin: 20px;
   border-radius: 15px;
+  justify-content: center;
+  opacity: .3;
 }
+
+.icons:hover {
+  opacity: 1;
+}
+.icons h2
+ {
+  color: white;
+  position: absolute;
+  display: flex;
+  margin: 0;
+  top: 43%;
+  font-family: arial;
+}
+
+
 .iconimg {
-  position: relative;
+  position: absolute;
   height: 100%;
   width: 100%;
   border-radius: 15px;
@@ -92,11 +108,12 @@ a:link {
   color: white;
 }
 
-a:hover {
+.homeButton a:hover {
   color: red;
 }
 
 a:visited { text-decoration: none; }
+
 .navbar {
   position: absolute;
   bottom: 0;
