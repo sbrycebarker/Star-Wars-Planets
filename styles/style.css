@@ -56,6 +56,9 @@ animation: mymove 3s;
   justify-content: center;
   opacity: .3;
 }
+.icons:hover {
+  opacity: 1;
+}
 
 @media (min-width: 1500px) {
   .icons {
@@ -186,8 +189,4 @@ a:visited { text-decoration: none; }
   .planets {
     margin-top: 103px;
   }
-}
-
-.planet:hover {
-  opacity: .5;
 }
