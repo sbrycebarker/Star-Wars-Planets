@@ -16,9 +16,9 @@
   background-image: linear-gradient( to right, green, #47251B );
   border-radius: 20px;
   top: 150px;
-  left: 100px;
+  left: 50px;
   color: grey;
-  margin-left: 100px;
+  margin-left: 0px;
   padding: 0px;
   font-family: arial;
   font-size: 10px;
@@ -29,11 +29,11 @@ animation: mymove 3s;
 }
 @-webkit-keyframes mymove {
     from {left: 0px;}
-    to {left: 100px;}
+    to {left: 50px;}
 }
 @keyframes mymove {
     from {left: 0px;}
-    to {left: 100px;}
+    to {left: 50px;}
 }
 
 
