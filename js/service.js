@@ -21,14 +21,14 @@ this.getotherPlanets = function() {
   });
 }
 
-// this.getweather = function(){
-//   var url = url
-// $sce.trustAsJs(url);
-//   return $http({
-//     method:'GET',
-//     url: "https://api.weatherbit.io/v1.0/forecast/hourly?lat=68&lon=-43&key=279abbf80b9d4142a0f619336394e835"
-// //   });
-// }
+this.getweather = function(){
+  var url = url
+$sce.trustAsJs(url);
+  return $http({
+    method:'GET',
+    url: "http://api.darksky.net/forecast/7c2cddbc19d52aeb622c6604ae5b50a3/37.8267,-122.4233"
+ });
+}
 
 
 });

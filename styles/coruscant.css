@@ -11,8 +11,8 @@
   background-color: grey;
   margin: auto;
   z-index: 1;
-  height: 400px;
-  width: 400px;
+  height: 40%;
+  width: 20%;
   background-image: linear-gradient( to right, grey, black );
   border-radius: 20px;
   top: 200px;
@@ -34,4 +34,28 @@ animation: mymove 3s;
 @keyframes mymove {
     from {right: 0px;}
     to {right: 200px;}
+}
+
+
+@media (max-width: 600px) {
+  .planetinfo {
+    position: absolute;
+    background-color: grey;
+    margin: auto;
+    z-index: 1;
+    height: 430px;
+    width: 200px;
+    background-image: linear-gradient( to right, grey, black );
+    border-radius: 20px;
+    top: 200px;
+    right: 200px;
+    color: white;
+    padding: 5px;
+    font-family: arial;
+    font-size: 20px;
+    text-shadow: 2px 2px 2px black;
+    box-shadow: 15px 15px 15px 0px;
+    -webkit-animation: mymove 3s; /* Safari 4.0 - 8.0 */
+  animation: mymove 3s;
+  }
 }

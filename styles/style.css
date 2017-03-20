@@ -57,6 +57,25 @@ animation: mymove 3s;
   opacity: .3;
 }
 
+@media (min-width: 1500px) {
+  .icons {
+      position: relative;
+      display: flex;
+      height: 250px;
+      width: 250px;
+      top: 200px;
+      margin: 10px;
+      flex-wrap: wrap;
+      border-radius: 15px;
+      justify-content: center;
+      opacity: .3;
+    }
+    .icons:hover {
+      opacity: 1;
+    }
+  }
+}
+
 .icons:hover {
   opacity: 1;
 }
@@ -163,9 +182,9 @@ a:visited { text-decoration: none; }
   border-bottom: 2px solid red;
 }
 
-@media (min-width: 800px) {
+@media (max-width: 1100px) {
   .planets {
-    display: none:
+    margin-top: 100px;
   }
 }
 
