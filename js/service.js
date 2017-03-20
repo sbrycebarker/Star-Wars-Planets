@@ -21,14 +21,14 @@ this.getotherPlanets = function() {
   });
 }
 
-this.getweather = function(){
-  var url = url
-$sce.trustAsJs(url);
-  return $http({
-    method:'GET',
-    url: "http://api.darksky.net/forecast/7c2cddbc19d52aeb622c6604ae5b50a3/37.8267,-122.4233"
- });
-}
+// this.getweather = function(){
+//   var url = url
+// $sce.trustAsJs(url);
+//   return $http({
+//     method:'GET',
+//     url: "http://api.openweathermap.org/data/2.5/weather?lat=35&lon=139"
+//  });
+// }
 
 
 });

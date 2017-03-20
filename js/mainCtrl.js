@@ -22,13 +22,13 @@ $scope.getPlanets();
   }
   $scope.getotherPlanets();
 
-  $scope.getweather =function() {
-    service.getweather().then(function(results){
-      console.log('WEATHER', results)
-      $scope.weather = results;
-    })
-  }
-
-  $scope.getweather()
-
+//   $scope.getweather =function() {
+//     service.getweather().then(function(results){
+//       console.log('WEATHER', results)
+//       $scope.weather = results;
+//     })
+//   }
+//
+//   $scope.getweather()
+//
 })

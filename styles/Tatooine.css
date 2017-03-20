@@ -11,27 +11,98 @@
   background-color: grey;
   margin: auto;
   z-index: 1;
-  height: 400px;
-  width: 400px;
-  background-image: linear-gradient( to right, silver, black );
+  height: 200px;
+  width: 200px;
+  background-image: linear-gradient( to right, grey, black );
   border-radius: 20px;
-  top: 200px;
-  left: 200px;
-  color: white;
-  text-shadow: 2px 2px 2px black;
-  padding: 10px;
+  top: 150px;
+  left: 100px;
+  color: orange;
+  margin-left: 100px;
+  padding: 0px;
   font-family: arial;
-  font-size: 20px;
-  box-shadow: 15px 15px 15px black;
+  font-size: 10px;
+  text-shadow: 2px 2px 2px black;
+  box-shadow: 15px 15px 15px 0px;
   -webkit-animation: mymove 3s; /* Safari 4.0 - 8.0 */
 animation: mymove 3s;
 }
-
 @-webkit-keyframes mymove {
     from {left: 0px;}
-    to {left: 200px;}
+    to {left: 100px;}
 }
 @keyframes mymove {
     from {left: 0px;}
-    to {left: 200px;}
+    to {left: 100px;}
+}
+
+
+
+
+@media (min-width: 1100px) {
+  .planetinfo {
+    position: absolute;
+    background-color: grey;
+    margin: auto;
+    z-index: 1;
+    height: 400px;
+    width: 400px;
+    background-image: linear-gradient( to right, grey, black );
+    border-radius: 20px;
+    top: 200px;
+    left: 200px;
+    color: orange;
+    padding: 10px;
+    font-family: arial;
+    font-size: 20px;
+    text-shadow: 2px 2px 2px black;
+    box-shadow: 15px 15px 15px 0px;
+    -webkit-animation: mymove 3s; /* Safari 4.0 - 8.0 */
+  animation: mymove 3s;
+  }
+
+  @-webkit-keyframes mymove {
+      from {left: 0px;}
+      to {left: 200px;}
+  }
+  @keyframes mymove {
+      from {left: 0px;}
+      to {left: 200px;}
+  }
+
+}
+
+
+@media (min-width: 700px) and (max-width: 1100px) {
+  .planetinfo {
+    max-width: 700px;
+    position: absolute;
+    background-color: grey;
+    margin: auto;
+    z-index: 1;
+    height: 250px;
+    width: 250px;
+    background-image: linear-gradient( to right, grey, black );
+    border-radius: 20px;
+    top: 150px;
+    left: 100px;
+    color: orange;
+    margin-left: 100px;
+    padding: 0px;
+    font-family: arial;
+    font-size: 15px;
+    text-shadow: 2px 2px 2px black;
+    box-shadow: 15px 15px 15px 0px;
+    -webkit-animation: mymove 3s; /* Safari 4.0 - 8.0 */
+  animation: mymove 3s;
+  }
+  @-webkit-keyframes mymove {
+      from {left: 0px;}
+      to {left: 100px;}
+  }
+  @keyframes mymove {
+      from {left: 0px;}
+      to {left: 100px;}
+  }
+
 }
