@@ -55,6 +55,15 @@ animation: mymove 3s;
   border-radius: 15px;
   justify-content: center;
   opacity: .3;
+  animation: moveup 3s;
+}
+@-webkit-keyframes moveup {
+    from {top: 0px;}
+    to {top: 200px;}
+}
+@keyframes moveup {
+    from {top: 0px;}
+    to {top: 200px;}
 }
 .icons:hover {
   opacity: 1;
