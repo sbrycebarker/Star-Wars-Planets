@@ -32,12 +32,41 @@ animation: mymove 3s;
 }
 
 
-
+.top {
+  position: relative;
+  height: 700px;
+  width: auto;
+  display: flex;
+  justify-content: center;
+}
+.icons {
+  position: relative;
+  display: inline-block;
+  background-color: red;
+  height: 300px;
+  width: 300px;
+  top: 200px;
+  margin: 20px;
+  border-radius: 15px;
+}
+.iconimg {
+  position: relative;
+  height: 100%;
+  width: 100%;
+  border-radius: 15px;
+}
 .imperial {
-  height: 600px;
+  position: absolute;
+  height: 100%;
   width: 100%;
   border-bottom: 5px solid teal;
   margin-bottom: 0px;
+}
+
+@media (max-width: 800px) {
+  .imperial {
+    display: none;
+  }
 }
 
 .siteHeader{
@@ -97,14 +126,23 @@ a:visited { text-decoration: none; }
     margin: 0;
 }
 .planets {
+  display: inherit;
   width: 100%;
   margin-top: -5px;
 }
+
+
 .planet {
   height: 300px;
   width: 100%;
   position: relative;
   border-bottom: 2px solid red;
+}
+
+@media (min-width: 800px) {
+  .planets {
+    display: none:
+  }
 }
 
 .planet:hover {
