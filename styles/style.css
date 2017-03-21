@@ -164,7 +164,7 @@ a:visited { text-decoration: none; }
   color: white;
   border-top: 1px white solid;
 }
-@media (max-width: 450px) {
+@media (max-width: 500px) {
   .navbar {
     display: none;
   }
