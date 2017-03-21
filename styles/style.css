@@ -164,6 +164,11 @@ a:visited { text-decoration: none; }
   color: white;
   border-top: 1px white solid;
 }
+@media (max-width: 450px) {
+  .navbar {
+    display: none;
+  }
+}
 
 #tato:hover {
   color: #FF5E00;
