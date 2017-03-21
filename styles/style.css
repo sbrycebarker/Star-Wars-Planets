@@ -86,6 +86,9 @@ animation: mymove 3s;
     .icons:hover {
       opacity: 1;
     }
+    .planets {
+      margin-top: 5px;
+    }
   }
 
 .icons:hover {
