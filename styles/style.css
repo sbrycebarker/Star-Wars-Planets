@@ -149,7 +149,9 @@ a:link {
 }
 
 .homeButton a:hover {
-  color: purple;
+  color: white;
+  opacity: .5;
+  text-decoration: underline;
 }
 
 a:visited { text-decoration: none; }
