@@ -31,5 +31,12 @@ angular.module('myApp').controller('planetCtrl', function($scope, planetService)
   }
   $scope.getmustafar();
 
+  $scope.getweather = function(location) {
+    console.log('loc',location)
+    service.getweather(location).then(function(results){
+      console.log('WEATHER', results)
+      $scope.weather = "results";
+    })
+  }
 
 });

@@ -101,7 +101,6 @@ animation: mymove 3s;
   font-family: arial;
 }
 
-
 .iconimg {
   position: absolute;
   height: 100%;
@@ -227,8 +226,8 @@ a:visited { text-decoration: none; }
   width: 100%;
   position: relative;
   border-bottom: 2px solid red;
+  margin: -3px;
 }
 
 .planet:hover {
-  opacity: .5;
 }

@@ -1,4 +1,4 @@
-angular.module('myApp').service('service', function($http, $sce){
+angular.module('myApp').service('service', function($http){
 
 this.getPlanets = function() {
   return $http({
@@ -21,22 +21,16 @@ this.getotherPlanets = function() {
   });
 }
 
-// this.getweather = function(){
-//   var url = url
-// $sce.trustAsJs(url);
-//   return $http({
-//     method:'GET',
-//     url: "http://api.openweathermap.org/data/2.5/weather?lat=35&lon=139"
-//  });
-// }
-
-
+this.getweather = function(location) {
+  console.log("location", location)
+  return $http({
+    method:'GET',
+    url: `http://api.openweathermap.org/data/2.5/weather?q=` + location.city + ',' + location.country + `&appid=ca745d64c069805e15fa79364802f256`
+ });
+}
 });
 
 
-
-
-console.log();
   // Require the module
 //   var Forecast = require('forecast');
 //

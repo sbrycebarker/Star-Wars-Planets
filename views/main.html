@@ -9,40 +9,38 @@
 </div>
 
 <div class="planets">
+  <a ui-sref="Tatooine">
+    <div class="planet">
+      <h1>{{moreplanets[9].name}}</h1>
+      <img class="tatooine" style="-webkit-animation-delay: .4s; animation-delay: .5s;">
+    </div>
+  </a>
 
-<a ui-sref="Tatooine"><div class="planet">
-    <h1>{{moreplanets[9].name}}</h1>
-    <img class="tatooine" src="views/img/Tatooine_36689d1b.jpeg" style="height: 300px; width: 100%;">
-
-</div>
-</a>
-<a ui-sref="Hoth">
-<div class="planet">
+  <a ui-sref="Hoth">
+    <div class="planet">
       <h1>{{planets[2].name}}</h1>
-    <img class="hoth" src="views/img/thumb-1920-641852.jpg" style="height: 300px; width: 100%;
-    -webkit-animation-delay: .4s; animation-delay: .5s;">
-</div>
-</a>
-<a ui-sref="Dagobah">
-<div class="planet"/>
-      <h1>{{planets[3].name}}</h1>
-    <img class="Dagobah" src="views/img/Dagobah.jpg" style="height: 300px; width: 100%; -webkit-animation-delay: 1s; animation-delay: 1s;">
-  </div>
+      <img class="hoth" style="-webkit-animation-delay: .4s; animation-delay: .5s;">
+    </div>
   </a>
-<a ui-sref="Mustafar">
-<div class="planet">
-  <h1>{{otherPlanets[1].name}}</h1>
-  <img class="Mustafar" src="views/img/mustafar-1_a5fa270f.jpeg" style="height: 300px; width: 100%;">
-  </div>
-  </a>
-  <a ui-sref="Coruscant">
-<div class="planet">
-    <h1>{{planets[7].name}}</h1>
-  <img class="Coruscant" src="views/img/Coruscant_at_night.jpg" style="height: 300px; width: 100%; -webkit-animation-delay: 2s; animation-delay: 2s">
-  </div>
-<!-- <div class="W">
-  Weather
-{{weather}}
-</div> -->
 
+  <a ui-sref="Dagobah">
+    <div class="planet" ng-click="getweather( { city: 'miami' , country: 'usa' } )">
+      <h1>{{planets[3].name}}</h1>
+      <img class="Dagobah" style="-webkit-animation-delay: 1s; animation-delay: 1s;">
+    </div>
+  </a>
+
+  <a ui-sref="Mustafar">
+    <div class="planet">
+      <h1>{{otherPlanets[1].name}}</h1>
+      <img class="Mustafar" style="-webkit-animation-delay: 1s; animation-delay: 1s;">
+    </div>
+  </a>
+
+  <a ui-sref="Coruscant">
+    <div class="planet">
+        <h1>{{planets[7].name}}</h1>
+      <img class="Coruscant" style=" -webkit-animation-delay: 2s; animation-delay: 2s">
+    </div>
+  </a>
   </div>

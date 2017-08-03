@@ -1,9 +1,10 @@
 
 .img {
-  position: absolute;
+  position: relative;
   z-index: -1;
   height: 100%;
   width: 100%;
+  background-size: cover;
 }
 
 .planetinfo {
@@ -25,7 +26,7 @@
   text-shadow: 2px 2px 2px black;
   box-shadow: 15px 15px 15px 0px;
   -webkit-animation: mymove 3s; /* Safari 4.0 - 8.0 */
-animation: mymove 3s;
+  animation: mymove 3s;
 }
 @-webkit-keyframes mymove {
     from {right: 0px;}
@@ -128,7 +129,7 @@ animation: mymove 3s;
     text-shadow: 2px 2px 2px black;
     box-shadow: 15px 15px 15px 0px;
     -webkit-animation: mymove 3s; /* Safari 4.0 - 8.0 */
-  animation: mymove 3s;
+    animation: mymove 3s;
   }
   @-webkit-keyframes mymove {
       from {right: 0px;}

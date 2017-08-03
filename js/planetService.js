@@ -7,8 +7,6 @@ this.getTat = function() {
   })
 }
 
-
-
 this.gethoth = function() {
   return $http({
     method: 'GET',
@@ -30,12 +28,4 @@ this.getmustafar = function() {
   });
 }
 
-
-//
-// this.getYavin = function() {
-//   return $http({
-//     method: 'GET',
-//     url: "http://swapi.co/api/planets/?page=6"
-//   });
-// }
 });

@@ -1,0 +1,34 @@
+.tatooine {
+  height: 300px;
+  width: 100%;
+  background: url('../views/img/tatbig.jpg') 0px -450px;
+  background-size: cover;
+}
+
+.hoth {
+  height: 300px;
+  width: 100%;
+  background: url('../views/img/hothwalker.jpg') 0px -160px no-repeat;
+  background-size: cover;
+}
+
+.Mustafar {
+  height: 303px;
+  width: 100%;
+  background: url('../views/img/mustafar-bio.jpeg') 0px no-repeat;
+  background-size: cover
+}
+
+.Dagobah {
+  height: 300px;
+  width: 100%;
+  background: url('../views/img/dagobahwide.jpg')0px;
+  background-size: cover;
+}
+
+.Coruscant {
+  height: 303px;
+  width: 100%;
+  background: url('../views/img/Coruscantnight.jpg')0px;
+  background-size: cover;
+}
