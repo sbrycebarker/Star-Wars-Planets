@@ -25,7 +25,7 @@ this.getweather = function(location) {
   console.log("location", location)
   return $http({
     method:'GET',
-    url: `http://api.openweathermap.org/data/2.5/weather?q=` + 'miami' + ',' + 'usa' + `&appid=ca745d64c069805e15fa79364802f256`
+    url: `https://api.openweathermap.org/data/2.5/weather?q=` + 'miami' + ',' + 'usa' + `&appid=ca745d64c069805e15fa79364802f256`
  });
 }
 
@@ -33,7 +33,7 @@ this.hothweather = function(location) {
   console.log("location", location)
   return $http({
     method:'GET',
-    url: `http://api.openweathermap.org/data/2.5/weather?q=` + 'Vostok' + ',' + 'antarctica' + `&appid=ca745d64c069805e15fa79364802f256`
+    url: `https://api.openweathermap.org/data/2.5/weather?q=` + 'Vostok' + ',' + 'antarctica' + `&appid=ca745d64c069805e15fa79364802f256`
  });
 }
 
@@ -41,7 +41,7 @@ this.tatweather = function(location) {
   console.log("location", location)
   return $http({
     method:'GET',
-    url: `http://api.openweathermap.org/data/2.5/weather?q=` + 'pheonix' + ',' + 'usa' + `&appid=ca745d64c069805e15fa79364802f256`
+    url: `https://api.openweathermap.org/data/2.5/weather?q=` + 'pheonix' + ',' + 'usa' + `&appid=ca745d64c069805e15fa79364802f256`
  });
 }
 
@@ -49,7 +49,7 @@ this.mustweather = function(location) {
   console.log("location", location)
   return $http({
     method:'GET',
-    url: `http://api.openweathermap.org/data/2.5/weather?q=` + 'El Azizia' + ',' + 'Libya' + `&appid=ca745d64c069805e15fa79364802f256`
+    url: `https://api.openweathermap.org/data/2.5/weather?q=` + 'El Azizia' + ',' + 'Libya' + `&appid=ca745d64c069805e15fa79364802f256`
  });
 }
 
@@ -57,7 +57,7 @@ this.coruweather = function(location) {
   console.log("location", location)
   return $http({
     method:'GET',
-    url: `http://api.openweathermap.org/data/2.5/weather?q=` + 'San Fransisco' + ',' + 'USA' + `&appid=ca745d64c069805e15fa79364802f256`
+    url: `https://api.openweathermap.org/data/2.5/weather?q=` + 'San Fransisco' + ',' + 'USA' + `&appid=ca745d64c069805e15fa79364802f256`
  });
 }
 });
