@@ -24,7 +24,7 @@ this.getotherPlanets = function() {
 this.getweather = function(location) {
   return $http({
     method:'GET',
-    url: `https://api.openweathermap.org/data/2.5/weather?q=` + 'miami' + ',' + 'usa' + `&appid=ca745d64c069805e15fa79364802f256`
+    url: `https://api.openweathermap.org/data/2.5/weather?q=` + 'Guatemala City' + ',' + 'GT' + `&appid=ca745d64c069805e15fa79364802f256`
  });
 }
 
