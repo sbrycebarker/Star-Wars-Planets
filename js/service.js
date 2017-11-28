@@ -31,28 +31,29 @@ this.getweather = function(location) {
 this.hothweather = function(location) {
   return $http({
     method:'GET',
-    url: `https://api.openweathermap.org/data/2.5/weather?q=` + 'Vostok' + ',' + 'antarctica' + `&appid=ca745d64c069805e15fa79364802f256`
+    url: `https://api.openweathermap.org/data/2.5/weather?q=` + 'Oymyakon' + ',' + 'RU' + `&appid=ca745d64c069805e15fa79364802f256`
  });
 }
 
 this.tatweather = function(location) {
   return $http({
     method:'GET',
-    url: `https://api.openweathermap.org/data/2.5/weather?q=` + 'pheonix' + ',' + 'usa' + `&appid=ca745d64c069805e15fa79364802f256`
+    url: `https://api.openweathermap.org/data/2.5/weather?q=` + 'phoenix' + ',' + 'us' + `&appid=ca745d64c069805e15fa79364802f256`
  });
 }
+// 'El Azizia' + ',' + 'Libya'
 
 this.mustweather = function(location) {
   return $http({
     method:'GET',
-    url: `https://api.openweathermap.org/data/2.5/weather?q=` + 'El Azizia' + ',' + 'Libya' + `&appid=ca745d64c069805e15fa79364802f256`
+    url: `https://api.openweathermap.org/data/2.5/weather?q=` + 'Libya' + ',' + 'LY' + `&appid=ca745d64c069805e15fa79364802f256`
  });
 }
 
 this.coruweather = function(location) {
   return $http({
     method:'GET',
-    url: `https://api.openweathermap.org/data/2.5/weather?q=` + 'San Fransisco' + ',' + 'USA' + `&appid=ca745d64c069805e15fa79364802f256`
+    url: `https://api.openweathermap.org/data/2.5/weather?q=` + 'san francisco' + ',' + 'US' + `&appid=ca745d64c069805e15fa79364802f256`
  });
 }
 });

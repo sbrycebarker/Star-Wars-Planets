@@ -18,7 +18,7 @@ angular.module('myApp').controller('planetCtrl', function($scope, planetService)
 
   $scope.getDagobah = function() {
     planetService.getDagobah().then(function(results){
-      console.log(results)
+      // console.log(results)
       $scope.Dagobah = results.data.results[3]
     });
   }
