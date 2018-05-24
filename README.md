@@ -1,4 +1,4 @@
-Star Wars Planets
+# Star Wars Planets
 
 This project uses AgularJs, Javascript, HTML5, CSS3.
 
