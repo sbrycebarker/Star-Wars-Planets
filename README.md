@@ -9,4 +9,4 @@
   * Swapi.co
   * Openweathermap
 
-It uses Swapi.co for the information on the planets and it uses an openweathermap for simulated weather information that fits each planet.  
+The app uses Swapi.co for the information on the planets and it uses an openweathermap for simulated weather information that fits each planet.  
