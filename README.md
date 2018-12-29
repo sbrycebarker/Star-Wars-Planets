@@ -1,5 +1,6 @@
 # Star Wars Planets
-
+This project was built for DevMountain immersive bootcamp. 
+ 
 ## This project uses 
 
   * AgularJs 
