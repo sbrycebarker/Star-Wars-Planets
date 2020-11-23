@@ -3,7 +3,7 @@ angular.module('myApp').controller('planetCtrl', function($scope, planetService)
   $scope.getTat = function() {
     planetService.getTat().then(function(results){
       console.log(results)
-      $scope.tatooine = results.data.results[9]
+      $scope.tatooine = results.data.results[0]
     })
   }
   $scope.getTat();
@@ -11,7 +11,7 @@ angular.module('myApp').controller('planetCtrl', function($scope, planetService)
   $scope.gethoth = function() {
     planetService.gethoth().then(function(results){
       console.log(results)
-      $scope.hoth = results.data.results[2]
+      $scope.hoth = results.data.results[3]
     })
   }
   $scope.gethoth()
@@ -19,14 +19,14 @@ angular.module('myApp').controller('planetCtrl', function($scope, planetService)
   $scope.getDagobah = function() {
     planetService.getDagobah().then(function(results){
       // console.log(results)
-      $scope.Dagobah = results.data.results[3]
+      $scope.Dagobah = results.data.results[4]
     });
   }
   $scope.getDagobah()
 
   $scope.getmustafar = function() {
     planetService.getmustafar().then(function(results){
-      $scope.mustafar = results.data.results[1]
+      $scope.mustafar = results.data.results[2]
     })
   }
   $scope.getmustafar();
