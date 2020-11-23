@@ -3,7 +3,7 @@ angular.module('myApp').service('planetService', function($http){
 this.getTat = function() {
   return $http({
     method: 'GET',
-    url: "https://swapi.dev/api/planets/?page=6"
+    url: "https://swapi.dev/api/planets/?page=1"
   })
 }
 
