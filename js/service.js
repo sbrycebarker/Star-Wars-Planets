@@ -3,21 +3,21 @@ angular.module('myApp').service('service', function($http){
 this.getPlanets = function() {
   return $http({
     method: 'GET',
-    url: "https://swapi.dev/api/planets/"
+    url: "https://swapi.py4e.com/api/planets/"
   });
 },
 
 this.getmorePlanets = function() {
   return $http({
     method: 'GET',
-    url: "https://swapi.dev/api/planets/?page=6"
+    url: "https://swapi.py4e.com/api/planets/?page=6"
   });
 }
 
 this.getotherPlanets = function() {
   return $http({
     method: 'GET',
-    url: "https://swapi.dev/api/planets/?page=2"
+    url: "https://swapi.py4e.com/api/planets/?page=2"
   });
 }
 
