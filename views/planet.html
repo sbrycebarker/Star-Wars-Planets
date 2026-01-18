@@ -1,0 +1,53 @@
+<link rel="stylesheet" type="text/css" href="./styles/planet.css">
+
+<div class="planet-page">
+  <!-- Loading State -->
+  <div class="loading" ng-if="loading">
+    <h2>Loading planet data...</h2>
+    <div class="loader"></div>
+  </div>
+
+  <!-- Planet Content -->
+  <div class="planet-content" ng-if="!loading && planet">
+    <div class="planet-header">
+      <a ui-sref="home" class="back-link">← Back to All Planets</a>
+      <h1 class="planet-title">{{planet.name}}</h1>
+    </div>
+
+    <div class="planet-details">
+      <div class="detail-card">
+        <h3>Physical Properties</h3>
+        <ul>
+          <li><span>Diameter:</span> {{planet.diameter}} km</li>
+          <li><span>Gravity:</span> {{planet.gravity}}</li>
+          <li><span>Rotation Period:</span> {{planet.rotation_period}} hours</li>
+          <li><span>Orbital Period:</span> {{planet.orbital_period}} days</li>
+        </ul>
+      </div>
+
+      <div class="detail-card">
+        <h3>Environment</h3>
+        <ul>
+          <li><span>Climate:</span> {{planet.climate}}</li>
+          <li><span>Terrain:</span> {{planet.terrain}}</li>
+          <li><span>Surface Water:</span> {{planet.surface_water}}%</li>
+        </ul>
+      </div>
+
+      <div class="detail-card">
+        <h3>Population</h3>
+        <ul>
+          <li><span>Population:</span> {{planet.population}}</li>
+          <li><span>Residents:</span> {{planet.residents.length}} known</li>
+          <li><span>Films:</span> {{planet.films.length}} appearances</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <!-- Error State -->
+  <div class="error" ng-if="!loading && !planet">
+    <h2>Planet not found</h2>
+    <a ui-sref="home" class="back-link">← Back to All Planets</a>
+  </div>
+</div>

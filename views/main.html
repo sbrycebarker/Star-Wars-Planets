@@ -1,45 +1,45 @@
 
 <div class="top" icon-animate>
   <img class="imperial" src="views/img/imperial.jpg">
-  <a ui-sref="Tatooine"><div class="icons"><img class="iconimg" src="views/img/Tatooine_TPM.png"><h2 class="names">Tatooine</h2></div></a>
-  <a ui-sref="Hoth"><div class="icons"><img class="iconimg" src="views/img/Hoth1.jpg"><h2 class="names">Hoth</h2></div></a>
-  <a ui-sref="Dagobah"><div class="icons"><img class="iconimg" src="views/img/Dagobah_ep3.jpg"><h2 class="names">Dagobah</h2></div></a>
-  <a ui-sref="Mustafar"><div class="icons"><img class="iconimg" src="views/img/Mustafar_DB.png"><h2 class="names">Mustafar</h2></div></a>
-  <a ui-sref="Coruscant"><div class="icons"><img class="iconimg" src="views/img/couresant.jpg"><h2 class="names">Coruscant</h2></div></a>
+  <a ui-sref="Tatooine"><div class="icons"><img class="iconimg" src="views/img/Tatooine_TPM.png"><h2 class="names">{{planets[0].name}}</h2></div></a>
+  <a ui-sref="Hoth"><div class="icons"><img class="iconimg" src="views/img/Hoth1.jpg"><h2 class="names">{{planets[3].name}}</h2></div></a>
+  <a ui-sref="Dagobah"><div class="icons"><img class="iconimg" src="views/img/Dagobah_ep3.jpg"><h2 class="names">{{planets[4].name}}</h2></div></a>
+  <a ui-sref="Mustafar"><div class="icons"><img class="iconimg" src="views/img/Mustafar_DB.png"><h2 class="names">{{otherPlanets[2].name}}</h2></div></a>
+  <a ui-sref="Coruscant"><div class="icons"><img class="iconimg" src="views/img/couresant.jpg"><h2 class="names">{{planets[8].name}}</h2></div></a>
 </div>
 
 <div class="planets">
   <a ui-sref="Tatooine">
     <div class="planet">
-      <h1>{{moreplanets[9].name}}</h1>
+      <h1>{{planets[0].name}}</h1>
       <img class="tatooine" style="-webkit-animation-delay: .4s; animation-delay: .5s;">
     </div>
   </a>
 
   <a ui-sref="Hoth">
     <div class="planet">
-      <h1>{{planets[2].name}}</h1>
+      <h1>{{planets[3].name}}</h1>
       <img class="hoth" style="-webkit-animation-delay: .4s; animation-delay: .5s;">
     </div>
   </a>
 
   <a ui-sref="Dagobah">
     <div class="planet" ng-click="getweather( { city: 'miami' , country: 'usa' } )">
-      <h1>{{planets[3].name}}</h1>
+      <h1>{{planets[4].name}}</h1>
       <img class="Dagobah" style="-webkit-animation-delay: 1s; animation-delay: 1s;">
     </div>
   </a>
 
   <a ui-sref="Mustafar">
     <div class="planet">
-      <h1>{{otherPlanets[1].name}}</h1>
+      <h1>{{otherPlanets[2].name}}</h1>
       <img class="Mustafar" style="-webkit-animation-delay: 1s; animation-delay: 1s;">
     </div>
   </a>
 
   <a ui-sref="Coruscant">
     <div class="planet">
-        <h1>{{planets[7].name}}</h1>
+        <h1>{{planets[8].name}}</h1>
       <img class="Coruscant" style=" -webkit-animation-delay: 2s; animation-delay: 2s">
     </div>
   </a>
